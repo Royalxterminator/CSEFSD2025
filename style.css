@@ -1,0 +1,18 @@
+body{
+  background-color: brown;
+}
+h1{
+  background-color: aqua;
+}
+h2{
+  background-color: blueviolet;
+}
+div~p{
+  background-color: yellow;
+}
+p:nth-child(2){
+  background-color: green;
+}
+div p:nth-of-type(1){
+  background-color: pink;
+}
